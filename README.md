@@ -24,5 +24,19 @@ saucedemo-autotests/
 ## Saucedemo Login Autotests
 
 ## Установка
-```bash
+
 pip install -r requirements.txt
+
+## Запуск тестов
+
+pytest
+
+## Allure-отчет
+
+allure serve allure-results
+
+## Docker
+
+docker build -t saucedemo-tests .
+docker run saucedemo-tests
+
