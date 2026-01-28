@@ -26,27 +26,3 @@ saucedemo-autotests/
 ## Установка
 ```bash
 pip install -r requirements.txt
-
-## Запуск тестов
-
-pytest
-
-## Allure отчет
-
-allure serve allure-results
-
-## Docker
-
-docker build -t saucedemo-tests .
-docker run saucedemo-tests
-
-
-## ✅ Что здесь реализовано
-
-✔ 5 сценариев логина  
-✔ Selenium + Page Object  
-✔ Проверка URL и элементов  
-✔ Allure-отчёты  
-✔ Docker-контейнер  
-✔ Python 3.10  
-
